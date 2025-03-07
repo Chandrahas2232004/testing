@@ -11,6 +11,11 @@ app.get("/login",(req,res)=>{
     res.send("<h1>this is login page</h1>")
 })
 
+
+app.get("/hi",(req,res)=>{
+    res.send("This is Chandrahas")
+})
+
 app.listen(process.env.PORT,()=>{
     console.log("port is running")
 })
